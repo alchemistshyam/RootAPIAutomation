@@ -30,7 +30,7 @@ class TestComponent(object):
 
         assert http_code in (
             (self.read_api_data(api="api_1"))["api_result"]["success_code"]
-        ), "Status Code does not match"
+        ), logger.error("Status code does not match")
 
     @classmethod
     def teardown_class(cls):

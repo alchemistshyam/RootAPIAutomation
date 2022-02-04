@@ -17,4 +17,7 @@
 1. pip3 install -r requirements.txt
 
 ## Commands
-pytest -s -v --junitxml=api_result.xml --html=api_report.html --log-cli-level info
+pytest -s -v --junitxml=api_report.xml --html=api_report.html --log-cli-level info --log-file=api_report.log
+
+## Jira Ticket Command
+python lib/jira_helper.py --username=shyamsingh.mit@gmail.com --token=xyztoken --server=https://roottechnology.atlassian.net --operation=create --error_file=api_report.log --label=API_Automation

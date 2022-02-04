@@ -3,3 +3,7 @@ pytest
 black
 pytest-html
 requests
+pytest-html
+jira
+tesults
+pytest-tesults
