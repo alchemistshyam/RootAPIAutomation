@@ -1,0 +1,6 @@
+{
+    "bearer_token": {
+        "apply": true,
+        "token": "xyz"
+    }
+}
